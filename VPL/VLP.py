@@ -6,8 +6,6 @@ import time
 f = open("code.txt", "r")
 #read the file
 file = f.read()
-#path of the webbrowser
-path = 'path of the webbrowser'
 #link of "Testat"
 url = 'link to the Testat'
 
