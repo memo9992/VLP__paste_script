@@ -1,5 +1,5 @@
 import keyboard
-import subprocess
+import webbrowser
 import time
 #it's recomended to save the java program as a txt file without the tabs ,{},() and then add them later in the VPL
 #open the file
@@ -9,10 +9,10 @@ file = f.read()
 #path of the webbrowser
 path = 'path of the webbrowser'
 #link of "Testat"
-tab = 'link to the Testat'
+url = 'link to the Testat'
 
 #open the Browser
-subprocess.Popen([path, tab])
+webbrowser.open_new_tab(url)
 #wait 10 seconds
 time.sleep(10)
 # type the program
