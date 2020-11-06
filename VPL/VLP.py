@@ -7,9 +7,9 @@ f = open("code.txt", "r")
 #read the file
 file = f.read()
 #path of the webbrowser
-path = 'C:\Program Files\Mozilla Firefox\\firefox.exe'
+path = 'path of the webbrowser'
 #link of "Testat"
-tab = 'https://moodle.th-brandenburg.de/mod/vpl/forms/edit.php?id=393349&userid=22138'
+tab = 'link to the Testat'
 
 #open the Browser
 subprocess.Popen([path, tab])
