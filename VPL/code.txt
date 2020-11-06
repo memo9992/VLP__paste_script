@@ -1,18 +1,1 @@
-import java.util.Scanner;
-public class ZinsenRechner 
-public static void main(String[] args) 
-Scanner sc = new Scanner(System.in);
-
-float anfangsKapital = 0.0f,endeKapital = 0.0f,zinssatz = 0.0f;
-int n = 0;
-
-anfangsKapital = sc.nextFloat();
-n = sc.nextInt();
-zinssatz = sc.nextFloat();
-
-if (zinssatz < 10)
-endeKapital = anfangsKapital *(n*(zinssatz/100f)+1);
-
-else
-System.out.println("Eingabefehler");
-
+paste you code here
